@@ -1,0 +1,127 @@
+.smr-review-clickable-button {
+    position: fixed;
+    bottom: 16px;
+    text-transform: uppercase;
+    z-index: 100;
+    padding: 14px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(50, 201, 133) 0%, rgb(61, 185, 146) 100%) rgb(27, 209, 114);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.__i {
+    margin: auto;
+    width: 300px;
+    display: block;
+    padding: 10px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #ffffff;
+}
+.hand {
+    cursor: pointer;
+}
+._chBg {
+    background: #0084ff;
+}
+.__ovB {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#modal-iframe {
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999999;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+}
+#embedRating {
+    width: 100%;
+}
+.vex-content {
+    width: 100% !important
+}
+@media screen and (min-width: 780px) {
+    .vex-content {
+        width: 60% !important
+    }
+}
+.sideButton {
+    position: fixed;
+    font-size: 1.2em;
+    top: 40%;
+    text-transform: uppercase;
+    z-index: 100;
+    padding: 14px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(50, 201, 133) 0%, rgb(61, 185, 146) 100%) rgb(27, 209, 114);
+    border-radius: 50px;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+.sideButton.r {
+    right: -46px;
+}
+.sideButton.l {
+    left: -46px;
+}
+.smr-review-clickable-button.l {
+    left: 16px;
+}
+.smr-review-clickable-button.r {
+    right: 16px;
+}
+#side-reviews-smr {
+    width: 300px;
+    background: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999999;
+    border-left: 1px solid #e5e5e5
+}
+.side-reviews-header {
+    height: 50px;
+    box-shadow: 1px 0px 1px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.side-reviews-close-action {
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    top: 2px;
+    right: 0;
+    padding: 2px 6px 2px 6px;
+}
+.side-reviews-close-action:after {
+    content: "X";
+}
+.loadingOverlay {
+    background: #fff url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA0NCA0NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiM5OTkiPiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS13aWR0aD0iMiI+ICAgICAgICA8Y2lyY2xlIGN4PSIyMiIgY3k9IjIyIiByPSIxIj4gICAgICAgICAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiAgICAgICAgICAgICAgICBiZWdpbj0iMHMiIGR1cj0iMS40cyIgICAgICAgICAgICAgICAgdmFsdWVzPSIxOyAyMCIgICAgICAgICAgICAgICAgY2FsY01vZGU9InNwbGluZSIgICAgICAgICAgICAgICAga2V5VGltZXM9IjA7IDEiICAgICAgICAgICAgICAgIGtleVNwbGluZXM9IjAuMTY1LCAwLjg0LCAwLjQ0LCAxIiAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4gICAgICAgICAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utb3BhY2l0eSIgICAgICAgICAgICAgICAgYmVnaW49IjBzIiBkdXI9IjEuNHMiICAgICAgICAgICAgICAgIHZhbHVlcz0iMTsgMCIgICAgICAgICAgICAgICAgY2FsY01vZGU9InNwbGluZSIgICAgICAgICAgICAgICAga2V5VGltZXM9IjA7IDEiICAgICAgICAgICAgICAgIGtleVNwbGluZXM9IjAuMywgMC42MSwgMC4zNTUsIDEiICAgICAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPiAgICAgICAgPC9jaXJjbGU+ICAgICAgICA8Y2lyY2xlIGN4PSIyMiIgY3k9IjIyIiByPSIxIj4gICAgICAgICAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiAgICAgICAgICAgICAgICBiZWdpbj0iLTAuOXMiIGR1cj0iMS40cyIgICAgICAgICAgICAgICAgdmFsdWVzPSIxOyAyMCIgICAgICAgICAgICAgICAgY2FsY01vZGU9InNwbGluZSIgICAgICAgICAgICAgICAga2V5VGltZXM9IjA7IDEiICAgICAgICAgICAgICAgIGtleVNwbGluZXM9IjAuMTY1LCAwLjg0LCAwLjQ0LCAxIiAgICAgICAgICAgICAgICByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4gICAgICAgICAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJzdHJva2Utb3BhY2l0eSIgICAgICAgICAgICAgICAgYmVnaW49Ii0wLjlzIiBkdXI9IjEuNHMiICAgICAgICAgICAgICAgIHZhbHVlcz0iMTsgMCIgICAgICAgICAgICAgICAgY2FsY01vZGU9InNwbGluZSIgICAgICAgICAgICAgICAga2V5VGltZXM9IjA7IDEiICAgICAgICAgICAgICAgIGtleVNwbGluZXM9IjAuMywgMC42MSwgMC4zNTUsIDEiICAgICAgICAgICAgICAgIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPiAgICAgICAgPC9jaXJjbGU+ICAgIDwvZz48L3N2Zz4=) no-repeat 50% 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.side-div-business-name {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center
+}

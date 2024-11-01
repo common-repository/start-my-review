@@ -1,0 +1,28 @@
+.rev-text {
+    color: #1b75bb;
+    font-size: 20px;
+}
+#stars-container, .r-container {
+    background: #eeeeee;
+}
+.oauth-icon {
+    max-width: 42px;
+    height: auto;
+}
+.hand {
+    cursor: pointer;
+}
+#main-logo-business {
+    max-width: 340px
+}
+.prettify {
+    font-family: 'Raleway', sans-serif;
+}
+#yelp-button {
+    background: #E51601
+}
+.yp-btn {
+    background: #FFFF00;
+    color: black;
+    border: #000 solid 2px;
+}
